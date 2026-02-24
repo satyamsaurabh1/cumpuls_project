@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Logs
+*.log
+*.out
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build and cache output
+dist/
+build/
+frontend/build/
+.cache/
+.parcel-cache/
+.eslintcache
+coverage/
+
+# Runtime and temp files
+tmp/
+temp/
+*.tmp
+*.pid
+*.pid.lock
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

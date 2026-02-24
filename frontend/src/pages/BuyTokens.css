@@ -1,0 +1,116 @@
+.buy-tokens-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.buy-tokens-header h1 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 4px;
+}
+
+.buy-tokens-header p {
+  color: var(--text-2);
+}
+
+.token-balance-badge {
+  margin-top: 12px;
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 118, 110, 0.25);
+  background: rgba(15, 118, 110, 0.12);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.view-history-link {
+  margin-top: 10px;
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.payment-warning {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(225, 29, 72, 0.26);
+  background: rgba(225, 29, 72, 0.08);
+  color: #881337;
+  font-weight: 600;
+}
+
+.payment-success-box {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(22, 163, 74, 0.28);
+  background: rgba(22, 163, 74, 0.1);
+  color: #166534;
+  font-weight: 600;
+}
+
+.payment-loader {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  color: var(--text-1);
+}
+
+.token-packages-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.token-package-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 18px;
+}
+
+.token-package-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.token-count {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.token-price {
+  margin-top: 5px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-0);
+}
+
+.token-description {
+  margin-top: 6px;
+  min-height: 40px;
+  color: var(--text-2);
+}
+
+.buy-token-btn {
+  margin-top: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  cursor: pointer;
+}
+
+.buy-token-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
